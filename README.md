@@ -95,5 +95,4 @@
 
 ## 📫 Contact Me
 * **Email**: `본인의이메일@example.com`
-* **Notion**: [Learning Archive 상세 보기](본인의노션링크)
-* **Tech Blog**: [Tistory/Velog 바로가기](본인의블로그링크)
+* **Notion**: [Learning Archive 상세 보기](https://www.notion.so/Data-Analyst-Portfolio-Seo-2fc2091c753780a29295c464c0986827)
