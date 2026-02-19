@@ -102,39 +102,14 @@
 
 ### 💳 Credit Card Fraud Detection Project (신용카드 사기 탐지 프로젝트)
 
-<p align="left">
-  <img src="https://img.shields.io/badge/SK_Family_AI_Bootcamp-E1190E?style=flat-square&logo=SK&logoColor=white" alt="Bootcamp">
-  <img src="https://img.shields.io/badge/Main_Project-Classification-blue?style=flat-square" alt="Category">
-</p>
-
-> **본 프로젝트는 SK Family AI Bootcamp 교육 과정 중 수행한 실습 과제입니다.**
-> (This project is a practical assignment conducted during the SK Family AI Bootcamp.)
-
----
-
-#### 📝 Project Overview (프로젝트 개요)
-* **Goal**: 극심한 데이터 불균형(0.17%)을 극복하고 사기 거래를 탐지하는 머신러닝 모델 최적화
-* **Key Focus**: `SMOTE` 샘플링 및 `Threshold Tuning`을 통한 재현율(Recall) 극대화
-
-<details>
-<summary><b>🛠️ 주요 해결 과제 & 구현 내용 (상세 보기/접기)</b></summary>
-<br>
-
-* **Data Preprocessing**: 이상치에 민감한 `Amount` 피처에 **로그 변환(Log1p)** 및 **Standard Scaling** 적용.
-* **Imbalance Handling**: **SMOTE** 오버샘플링을 통한 데이터 균형 확보 및 **Stratified Split** 적용.
-* **Model Optimization**: **IQR** 방식을 이용한 이상치 제거 및 **로지스틱 회귀** 모델 성능 비교.
-</details>
-
-#### 📈 Model Performance (모델 성능)
-![Model Performance](./precision_recall_curve.png)
-* **Evaluation**: 사기를 놓치지 않기 위해 **Precision-Recall Curve** 분석을 통한 **Recall** 지표 최적화.
+본 프로젝트는 SK Family AI Bootcamp 교육 과정 중 수행한 실습 과제입니다.
 
 ---
 
 #### 📂 Project Assets (프로젝트 자산)
 
 <p align="left">
-  <a href="260204-Credit_Card_Fraud_Detection_Project.ipynb">
+  <a href="https://github.com/bizseohyunkim/Credit-Card-Fraud-Detection/blob/main/260204-Credit_Card_Fraud_Detection_Project.ipynb">
     <img src="https://img.shields.io/badge/SOURCE_CODE-JUPYTER_NOTEBOOK-orange?style=flat-square&logo=jupyter&logoColor=white">
   </a>
   &nbsp;&nbsp;
@@ -156,6 +131,14 @@
   &nbsp;&nbsp; 
   <img src="https://img.shields.io/badge/MATPLOTLIB-ffffff?style=flat-square&logo=matplotlib&logoColor=black">
 </p>
+
+---
+
+#### 📈 Model Performance (모델 성능)
+
+![Model Performance](precision_recall_curve.png)
+
+* **Evaluation**: 사기를 놓치지 않기 위해 Precision-Recall Curve 분석을 통한 Recall 지표 최적화.
 
 
 
