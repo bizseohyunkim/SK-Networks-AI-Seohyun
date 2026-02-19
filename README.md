@@ -100,14 +100,25 @@
 
 ---
 
-### 2️⃣ Anomaly Detection System 💳
-> **신용카드 부정 결제 탐지를 위한 불균형 데이터 처리 및 고정밀도 모델링**
-- **Core Stack**: `Scikit-learn`, `XGBoost`, `SMOTE (Oversampling)`
-- **Key Function**: 정밀도-재현율 커브 최적화를 통해 재현율(Recall) 95% 달성 및 비용 기반 임계값 설정
-- **Deliverables**:
-  [![GitHub](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](프로젝트_폴더_링크)
-  [![Notion](https://img.shields.io/badge/Analysis_Report-000000?style=flat-square&logo=notion&logoColor=white)](노션_실험리포트_링크)
-  [![Streamlit](https://img.shields.io/badge/Live_Demo-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](스트림릿_링크)
+### 2️⃣ Anomaly Detection System: Credit Card Fraud 💳
+> **극도로 불균형한 데이터셋을 극복하기 위한 머신러닝 최적화 및 이상 탐지**
+
+Kaggle의 신용카드 트랜잭션 데이터를 활용하여 사기(Fraud) 여부를 분류하는 프로젝트입니다. 데이터의 0.17%만이 사기인 극심한 불균형 문제를 해결하기 위해 **Sampling 기법**과 **Threshold Tuning**에 집중했습니다.
+
+#### 🛠 주요 해결 과제 & 구현 내용
+* **Data Preprocessing**: 이상치(Outlier)에 민감한 `Amount` 피처에 **로그 변환(Log1p)** 및 **Standard Scaling** 적용으로 모델 수렴 속도 향상.
+* **Imbalance Handling**: 
+  - **SMOTE(Synthetic Minority Over-sampling Technique)**를 적용하여 가상의 사기 데이터를 생성, 데이터 균형 확보.
+  - **Stratified Split**을 통해 학습/테스트 셋의 레이블 비율 유지.
+* **Model Optimization**: 
+  - **IQR(Interquartile Range)** 방식을 이용한 유의미한 이상치 제거로 모델 노이즈 감소.
+  - 로지스틱 회귀 및 결정 트리 기반의 앙상블 모델 성능 비교.
+* **Evaluation Strategy**: 단순 정확도(Accuracy)가 아닌 **Precision-Recall Curve**를 분석하여, 사기를 놓치지 않는 **재현율(Recall)** 지표 최적화.
+
+#### 🔗 Project Assets
+- 📂 **Source Code**: [Credit Card Fraud Detection Folder](./Week06_Credit_Card_Fraud/) 👈 *전체 코드는 여기서 확인 가능합니다.*
+- 📔 **Technical Report**: [실험 과정 및 데이터 분석 상세 리포트 (Notion)](본인의_노션_링크)
+- 🚀 **Live Demo**: [Streamlit 예측 모델 데모 (Link)](본인의_스트림릿_링크)
 
 
 
