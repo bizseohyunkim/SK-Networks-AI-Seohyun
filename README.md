@@ -90,23 +90,37 @@
 
 ### 1️⃣ KBO Data ETL Pipeline ⚾
 > **실시간 데이터를 수집하여 분석 가능한 SQL 형태로 적재하는 자동화 엔진**
-- **Core**: Python, BeautifulSoup, MySQL, SQLAlchemy
-- **Feature**: 1일 1회 스케줄링을 통한 자동 데이터 갱신 및 데이터 정규화(Normalization)
-- **Links**: [[Code]](프로젝트폴더링크) | [[System Architecture]](이미지링크)
+- **Core Stack**: `Python`, `BeautifulSoup`, `MySQL`, `SQLAlchemy`
+- **Key Function**: 1일 1회 스케줄링 자동 데이터 갱신 및 데이터 정규화(Normalization) 프로세스 구축
+- **Deliverables**:
+  [![GitHub](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](프로젝트_폴더_링크)
+  [![Notion](https://img.shields.io/badge/System_Architecture-000000?style=flat-square&logo=notion&logoColor=white)](노션_설계도_링크)
 
+
+
+---
 
 ### 2️⃣ Anomaly Detection System 💳
 > **신용카드 부정 결제 탐지를 위한 불균형 데이터 처리 및 고정밀도 모델링**
-- **Core**: Scikit-learn, XGBoost, SMOTE (Oversampling)
-- **Feature**: 재현율(Recall) 95% 이상 달성, 비용 기반 임계값 최적화
-- **Links**: [[Analysis Report]](노션이나블로그링크) | [[Demo App]](스트림릿링크)
+- **Core Stack**: `Scikit-learn`, `XGBoost`, `SMOTE (Oversampling)`
+- **Key Function**: 정밀도-재현율 커브 최적화를 통해 재현율(Recall) 95% 달성 및 비용 기반 임계값 설정
+- **Deliverables**:
+  [![GitHub](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](프로젝트_폴더_링크)
+  [![Notion](https://img.shields.io/badge/Analysis_Report-000000?style=flat-square&logo=notion&logoColor=white)](노션_실험리포트_링크)
+  [![Streamlit](https://img.shields.io/badge/Live_Demo-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](스트림릿_링크)
 
+
+
+---
 
 ### 3️⃣ Knowledge-based RAG Chatbot 🤖
-> **LangChain과 Vector DB를 결합한 도메인 특화 질의응답 엔진**
-- **Core**: LangChain, OpenAI API, ChromaDB, Streamlit
-- **Feature**: PDF/TXT 문서 기반 지식 추출 및 할루시네이션 방지 로직 적용
-- **Links**: [[Live Demo]](스트림릿배포링크) | [[Video Demo]](유튜브나움짤링크)
+> **LangChain과 Vector DB를 결합한 도메인 특화 지식 기반 질의응답 서비스**
+- **Core Stack**: `LangChain`, `OpenAI API`, `ChromaDB`, `Streamlit`
+- **Key Function**: 고유 문서(PDF/TXT) 임베딩 기반 RAG 엔진 구축으로 할루시네이션 최소화
+- **Deliverables**:
+  [![GitHub](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](프로젝트_폴더_링크)
+  [![Notion](https://img.shields.io/badge/Project_Log-000000?style=flat-square&logo=notion&logoColor=white)](노션_기록_링크)
+  [![Streamlit](https://img.shields.io/badge/Live_Demo-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](스트림릿_배포_링크)
 
 ---
 
