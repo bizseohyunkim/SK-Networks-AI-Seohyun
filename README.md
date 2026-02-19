@@ -1,3 +1,13 @@
+# Hi there, I'm Seo Kim! 👋
+
+### 📊 Data Science & Machine Learning Enthusiast
+현재 **SK Networks Family AI Camp (SKN-25)**에서 실무 데이터를 활용한 AI 모델링을 학습하고 있습니다.
+
+---
+
+### 📫 Contact Me
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](본인의링크드인주소)
+
 # 🤖 SK Networks Family AI Camp Learning Archive
 
 SK네트웍스 Family AI 캠프 25기를 통해 데이터 기초부터 LLM 파인튜닝, 클라우드 배포까지 아우르는 AI 풀스택 실무 역량을 쌓아가고 있습니다.
