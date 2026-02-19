@@ -6,7 +6,7 @@
 ---
 
 ### 📫 Contact Me
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](본인의링크드인주소)
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/seohyun-kim-1893ba360/)
 
 # 🤖 SK Networks Family AI Camp Learning Archive
 
