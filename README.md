@@ -94,5 +94,5 @@
 ---
 
 ## 📫 Contact Me
-* **Email**: `본인의이메일@example.com`
+* **Email**: biz.seohyunkim@gmail.com
 * **Notion**: [Learning Archive 상세 보기](https://www.notion.so/Data-Analyst-Portfolio-Seo-2fc2091c753780a29295c464c0986827)
