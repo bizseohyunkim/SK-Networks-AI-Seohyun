@@ -47,4 +47,29 @@
 | Phase 4 | AI Application | Django, AWS Cloud, SW Engineering | 📅 |
 | Phase 5 | Final Project | End-to-End Business Solution Project | 📅 |
 
+---
+
+## 📫 Contact Me
+
+<p align="left">
+  <a href="mailto:biz.seohyunkim@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white&link=mailto:biz.seohyunkim@gmail.com">
+  </a>
+  <a href="https://www.notion.so/your-notion-link-here">
+    <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white">
+  </a>
+  <a href="https://github.com/bizseohyunkim">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white">
+  </a>
+</p>
+
+* **Email**: [biz.seohyunkim@gmail.com](mailto:biz.seohyunkim@gmail.com)
+* **Notion**: [Learning Archive 상세 보기 (클릭)](https://www.notion.so/your-notion-link-here)
+* **GitHub**: [github.com/bizseohyunkim](https://github.com/bizseohyunkim)
+
+---
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=150&section=footer" />
+</p>
+
 
