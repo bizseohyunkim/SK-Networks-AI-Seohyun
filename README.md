@@ -5,6 +5,7 @@
 현재 **SK Networks Family AI Camp (SKN-25)**에서 실무 데이터를 활용한 AI 모델링 및 풀스택 AI 앱 개발 과정을 밟고 있습니다. 데이터 수집 자동화부터 MLOps, LLM 서비스 구축까지 End-to-End 역량을 지향합니다.
 
 ## 💡 Key Expertise & Experience
+
 * **Data Engineering**: MySQL 기반 ERD 설계 및 Python 연동을 통한 데이터 수집 자동화(ETL) 시스템 구축.
 * **ML/DL Modeling**: EDA 기반 데이터 전처리 및 비즈니스 지표에 최적화된 모델링 (Classification, Regression, Anomaly Detection).
 * **LLM & RAG Integration**: LangChain 및 Vector DB를 활용한 지식 기반 질의응답 서비스 개발 및 프롬프트 엔지니어링.
