@@ -1,7 +1,5 @@
 # 🚀 SEO KIM | AI Solution & Data Engineer
 
-"데이터 엔지니어링과 생성형 AI의 가교 역할을 수행합니다."
-
 현재 **SK Networks Family AI Camp (SKN-25)**에서 실무 데이터를 활용한  
 End-to-End AI 서비스 개발 역량을 쌓고 있습니다.
 
@@ -53,3 +51,19 @@ End-to-End AI 서비스 개발 역량을 쌓고 있습니다.
     - Docker 기반 환경 격리를 통한 일관된 서빙 환경 구축
 * **Tech Stack**: 
     <img src="https://img.shields.io/badge/PYTHON-3776AB?style=flat-square&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white"> <img src="https://img.shields.io/badge/SCIKIT_LEARN-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"> <img src="https://img.shields.io/badge/DOCKER-2496ED?style=flat-square&logo=docker&logoColor=white">
+
+---
+
+#### 3. 🐶 Dog Breed Classification (Deep Learning)
+> **SK Family AI Bootcamp 실습** | 전이 학습(Transfer Learning)을 활용한 이미지 분류 프로젝트입니다.
+
+* **Key Tasks**: PyTorch 기반 CNN 모델링, Image Augmentation 적용, 모델 성능 평가 및 시각화
+* **Tech Stack**: <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
+
+---
+
+#### 4. 🤖 Knowledge-based RAG Chatbot (LLM)
+> **SK Family AI Bootcamp 실습** | LangChain과 VectorDB를 활용한 지식 기반 질의응답 서비스입니다.
+
+* **Key Tasks**: 문서 데이터 임베딩, VectorDB(Chroma) 구축, RAG 파이프라인 설계
+* **Tech Stack**: <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white"> <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white">
