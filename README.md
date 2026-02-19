@@ -128,11 +128,11 @@
 
 #### 📈 Model Performance (모델 성능)
 
-<p align="left">
-  <img src="precision_recall_curve.png" width="700">
-</p>
-
-* **Evaluation**: 사기를 놓치지 않기 위해 Precision-Recall Curve 분석을 통한 Recall 지표 최적화.
+> <p align="left">
+>   <img src="precision_recall_curve.png" width="700">
+> </p>
+>
+> **Evaluation**: 사기를 놓치지 않기 위해 **Precision-Recall Curve** 분석을 통한 **Recall 지표 최적화**를 진행했습니다.
 
 ---
 
