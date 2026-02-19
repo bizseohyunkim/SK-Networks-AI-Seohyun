@@ -100,25 +100,40 @@
 
 ---
 
-### 2️⃣ Anomaly Detection System: Credit Card Fraud 💳
-> **극도로 불균형한 데이터셋을 극복하기 위한 머신러닝 최적화 및 이상 탐지**
+# 💳 Credit Card Fraud Detection Project (신용카드 사기 탐지 프로젝트)
 
-Kaggle의 신용카드 트랜잭션 데이터를 활용하여 사기(Fraud) 여부를 분류하는 프로젝트입니다. 데이터의 0.17%만이 사기인 극심한 불균형 문제를 해결하기 위해 **Sampling 기법**과 **Threshold Tuning**에 집중했습니다.
+> **This project is a practical assignment conducted during the SK Family AI Bootcamp.**
+> (본 프로젝트는 SK Family AI Bootcamp 교육 과정 중 수행한 실습 과제입니다.)
 
-#### 🛠 주요 해결 과제 & 구현 내용
-* **Data Preprocessing**: 이상치(Outlier)에 민감한 `Amount` 피처에 **로그 변환(Log1p)** 및 **Standard Scaling** 적용으로 모델 수렴 속도 향상.
-* **Imbalance Handling**: 
-  - **SMOTE(Synthetic Minority Over-sampling Technique)**를 적용하여 가상의 사기 데이터를 생성, 데이터 균형 확보.
-  - **Stratified Split**을 통해 학습/테스트 셋의 레이블 비율 유지.
-* **Model Optimization**: 
-  - **IQR(Interquartile Range)** 방식을 이용한 유의미한 이상치 제거로 모델 노이즈 감소.
-  - 로지스틱 회귀 및 결정 트리 기반의 앙상블 모델 성능 비교.
-* **Evaluation Strategy**: 단순 정확도(Accuracy)가 아닌 **Precision-Recall Curve**를 분석하여, 사기를 놓치지 않는 **재현율(Recall)** 지표 최적화.
+## 📝 Project Overview (프로젝트 개요)
+This project focuses on optimizing machine learning models and anomaly detection to overcome extremely imbalanced datasets. Using Kaggle's credit card transaction data, we focused on **Sampling techniques** and **Threshold Tuning** to solve the extreme imbalance where only 0.17% of the data is fraud.
+(본 프로젝트는 극도로 불균형한 데이터셋을 극복하기 위한 머신러닝 최적화 및 이상 탐지에 중점을 두었습니다. Kaggle의 신용카드 트랜잭션 데이터를 활용하여 데이터의 0.17%만이 사기인 극심한 불균형 문제를 해결하기 위해 **Sampling 기법**과 **Threshold Tuning**에 집중했습니다.)
 
-#### 🔗 Project Assets
-- 📂 **Source Code**: [Credit Card Fraud Detection Folder](./Week06_Credit_Card_Fraud/) 👈 *전체 코드는 여기서 확인 가능합니다.*
-- 📔 **Technical Report**: [실험 과정 및 데이터 분석 상세 리포트 (Notion)](본인의_노션_링크)
-- 🚀 **Live Demo**: [Streamlit 예측 모델 데모 (Link)](본인의_스트림릿_링크)
+## 🛠️ Key Methodologies & Implementation (주요 해결 과제 및 구현 내용)
+
+* **Data Preprocessing (데이터 전처리)**: 
+  - Applied **Log Transformation (Log1p)** and **Standard Scaling** to the outlier-sensitive `Amount` feature to improve model convergence speed.
+  - (이상치에 민감한 `Amount` 피처에 **로그 변환(Log1p)** 및 **Standard Scaling** 적용으로 모델 수렴 속도 향상.)
+* **Imbalance Handling (불균형 해결)**: 
+  - Used **SMOTE** (Synthetic Minority Over-sampling Technique) to generate synthetic fraud data and secure data balance.
+  - (SMOTE를 적용하여 가상의 사기 데이터를 생성, 데이터 균형 확보.)
+  - Maintained label ratios in training/test sets via **Stratified Split**.
+  - (**Stratified Split**을 통해 학습/테스트 셋의 레이블 비율 유지.)
+* **Model Optimization (모델 최적화)**: 
+  - Reduced model noise by removing significant outliers using the **IQR (Interquartile Range)** method.
+  - (**IQR** 방식을 이용한 유의미한 이상치 제거로 모델 노이즈 감소.)
+  - Implemented **Logistic Regression** for binary classification and compared performance.
+  - (이진 분류를 위해 로지스틱 회귀 모델을 구현하고 성능을 분석했습니다.)
+
+## 📈 Model Performance (모델 성능)
+![Model Performance](./precision_recall_curve.png)
+
+* **Evaluation Strategy (평가 전략)**: We prioritized **Recall** by analyzing the **Precision-Recall Curve** to ensure no fraudulent transactions are missed.
+* (단순 정확도가 아닌 **Precision-Recall Curve**를 분석하여, 사기를 놓치지 않는 **재현율(Recall)** 지표를 최적화하였습니다.)
+
+## 📂 Project Assets (프로젝트 자산)
+- 📔 **Jupyter Notebook**: [View Analysis Code (분석 코드 보기)](./260204-Credit_Card_Fraud_Detection_Project.ipynb)
+- 📔 **Technical Report**: [실험 과정 및 상세 리포트 (Notion)](본인의_노션_링크_있다면_입력)
 
 
 
