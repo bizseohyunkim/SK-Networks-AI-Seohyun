@@ -107,29 +107,40 @@
 
 ---
 
-#### 📝 Project Overview (프로젝트 개요)
-This project focuses on optimizing machine learning models and anomaly detection to overcome extremely imbalanced datasets. Using Kaggle's credit card transaction data, we focused on **Sampling techniques** and **Threshold Tuning** to solve the extreme imbalance where only 0.17% of the data is fraud.
-(본 프로젝트는 극도로 불균형한 데이터셋을 극복하기 위한 머신러닝 최적화 및 이상 탐지에 중점을 두었습니다. Kaggle의 신용카드 트랜잭션 데이터를 활용하여 데이터의 0.17%만이 사기인 극심한 불균형 문제를 해결하기 위해 **Sampling 기법**과 **Threshold Tuning**에 집중했습니다.)
+<details>
+<summary><b>🔍 Project Overview (프로젝트 개요 보기/접기)</b></summary>
+<br>
+This project focuses on optimizing machine learning models and anomaly detection to overcome extremely imbalanced datasets. Using Kaggle's credit card transaction data, we focused on <b>Sampling techniques</b> and <b>Threshold Tuning</b> to solve the extreme imbalance where only 0.17% of the data is fraud.
+<br><br>
+(본 프로젝트는 극도로 불균형한 데이터셋을 극복하기 위한 머신러닝 최적화 및 이상 탐지에 중점을 두었습니다. Kaggle의 신용카드 트랜잭션 데이터를 활용하여 데이터의 0.17%만이 사기인 극심한 불균형 문제를 해결하기 위해 Sampling 기법과 Threshold Tuning에 집중했습니다.)
+</details>
 
-#### 🛠️ Key Methodologies & Implementation (주요 해결 과제 및 구현 내용)
+<details>
+<summary><b>🛠️ Key Methodologies (주요 해결 과제 보기/접기)</b></summary>
+<br>
 
 * **Data Preprocessing (데이터 전처리)**
     * Applied **Log Transformation (Log1p)** and **Standard Scaling** to the outlier-sensitive `Amount` feature.
-    * (이상치에 민감한 `Amount` 피처에 **로그 변환(Log1p)** 및 **Standard Scaling** 적용.)
+    * (이상치에 민감한 `Amount` 피처에 로그 변환 및 Standard Scaling 적용.)
 * **Imbalance Handling (불균형 해결)**
-    * Used **SMOTE** (Synthetic Minority Over-sampling Technique) to generate synthetic fraud data.
-    * (SMOTE를 적용하여 가상의 사기 데이터를 생성, 데이터 균형 확보.)
-    * Maintained label ratios via **Stratified Split**.
-    * (**Stratified Split**을 통해 학습/테스트 셋의 레이블 비율 유지.)
+    * Used **SMOTE** to generate synthetic fraud data and maintained label ratios via **Stratified Split**.
+    * (SMOTE를 통한 데이터 균형 확보 및 Stratified Split 적용.)
 * **Model Optimization (모델 최적화)**
     * Reduced model noise by removing outliers using the **IQR** method.
-    * (**IQR** 방식을 이용한 유의미한 이상치 제거로 모델 노이즈 감소.)
+    * (IQR 방식을 이용한 유의미한 이상치 제거로 모델 노이즈 감소.)
+</details>
 
-#### 📈 Model Performance (모델 성능)
+<details>
+<summary><b>📈 Model Performance (모델 성능 그래프 보기/접기)</b></summary>
+<br>
+
 ![Model Performance](./precision_recall_curve.png)
 
-* **Evaluation Strategy (평가 전략)**: We prioritized **Recall** by analyzing the **Precision-Recall Curve**.
+* **Evaluation Strategy**: We prioritized **Recall** by analyzing the Precision-Recall Curve.
 * (사기를 놓치지 않는 **재현율(Recall)** 지표를 최적화하였습니다.)
+</details>
+
+---
 
 #### 📂 Project Assets (프로젝트 자산)
 * 📔 **Jupyter Notebook**: [View Analysis Code (분석 코드 보기)](./260204-Credit_Card_Fraud_Detection_Project.ipynb)
