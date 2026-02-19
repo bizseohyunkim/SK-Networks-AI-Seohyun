@@ -111,6 +111,7 @@ df['BMI'] = df['WEIGHT'] / (df['HEIGHT'] / 100) ** 2
 df['SALARY'] = df['연봉'].apply(lambda x: int(x[:-2]) if x[-2:] == '만원' else int(x[:-2]) * 1450 / 10000)
 
 ---
+### 1️⃣ KBO Player Data ETL Pipeline ⚾
 
 #### 📂 Project Assets (프로젝트 자산)
 
