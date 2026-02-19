@@ -102,48 +102,52 @@
 
 ### 💳 Credit Card Fraud Detection Project (신용카드 사기 탐지 프로젝트)
 
-> **This project is a practical assignment conducted during the SK Family AI Bootcamp.**
-> (본 프로젝트는 SK Family AI Bootcamp 교육 과정 중 수행한 실습 과제입니다.)
+<p align="left">
+  <img src="https://img.shields.io/badge/SK_Family_AI_Bootcamp-E1190E?style=flat-square&logo=SK&logoColor=white" alt="Bootcamp">
+  <img src="https://img.shields.io/badge/Main_Project-Classification-blue?style=flat-square" alt="Category">
+</p>
+
+> **본 프로젝트는 SK Family AI Bootcamp 교육 과정 중 수행한 실습 과제입니다.**
+> (This project is a practical assignment conducted during the SK Family AI Bootcamp.)
 
 ---
 
+#### 📝 Project Overview (프로젝트 개요)
+* **Goal**: 극심한 데이터 불균형(0.17%)을 극복하고 사기 거래를 탐지하는 머신러닝 모델 최적화
+* **Key Focus**: `SMOTE` 샘플링 및 `Threshold Tuning`을 통한 재현율(Recall) 극대화
+
 <details>
-<summary><b>🔍 Project Overview (프로젝트 개요 보기/접기)</b></summary>
+<summary><b>🛠️ 주요 해결 과제 & 구현 내용 (상세 보기/접기)</b></summary>
 <br>
-This project focuses on optimizing machine learning models and anomaly detection to overcome extremely imbalanced datasets. Using Kaggle's credit card transaction data, we focused on <b>Sampling techniques</b> and <b>Threshold Tuning</b> to solve the extreme imbalance where only 0.17% of the data is fraud.
-<br><br>
-(본 프로젝트는 극도로 불균형한 데이터셋을 극복하기 위한 머신러닝 최적화 및 이상 탐지에 중점을 두었습니다. Kaggle의 신용카드 트랜잭션 데이터를 활용하여 데이터의 0.17%만이 사기인 극심한 불균형 문제를 해결하기 위해 Sampling 기법과 Threshold Tuning에 집중했습니다.)
+
+* **Data Preprocessing**: 이상치에 민감한 `Amount` 피처에 **로그 변환(Log1p)** 및 **Standard Scaling** 적용.
+* **Imbalance Handling**: **SMOTE** 오버샘플링을 통한 데이터 균형 확보 및 **Stratified Split** 적용.
+* **Model Optimization**: **IQR** 방식을 이용한 이상치 제거 및 **로지스틱 회귀** 모델 성능 비교.
 </details>
 
-<details>
-<summary><b>🛠️ Key Methodologies (주요 해결 과제 보기/접기)</b></summary>
-<br>
-
-* **Data Preprocessing (데이터 전처리)**
-    * Applied **Log Transformation (Log1p)** and **Standard Scaling** to the outlier-sensitive `Amount` feature.
-    * (이상치에 민감한 `Amount` 피처에 로그 변환 및 Standard Scaling 적용.)
-* **Imbalance Handling (불균형 해결)**
-    * Used **SMOTE** to generate synthetic fraud data and maintained label ratios via **Stratified Split**.
-    * (SMOTE를 통한 데이터 균형 확보 및 Stratified Split 적용.)
-* **Model Optimization (모델 최적화)**
-    * Reduced model noise by removing outliers using the **IQR** method.
-    * (IQR 방식을 이용한 유의미한 이상치 제거로 모델 노이즈 감소.)
-</details>
-
-<details>
-<summary><b>📈 Model Performance (모델 성능 그래프 보기/접기)</b></summary>
-<br>
-
+#### 📈 Model Performance (모델 성능)
 ![Model Performance](./precision_recall_curve.png)
-
-* **Evaluation Strategy**: We prioritized **Recall** by analyzing the Precision-Recall Curve.
-* (사기를 놓치지 않는 **재현율(Recall)** 지표를 최적화하였습니다.)
-</details>
+* **Evaluation**: 사기를 놓치지 않기 위해 **Precision-Recall Curve** 분석을 통한 **Recall** 지표 최적화.
 
 ---
-
 
 #### 📂 Project Assets (프로젝트 자산)
+
+* **Deliverables:** <a href="./260204-Credit_Card_Fraud_Detection_Project.ipynb">
+    <img src="https://img.shields.io/badge/Source_Code-Jupyter_Notebook-orange?style=for-the-badge&logo=jupyter&logoColor=white" alt="Source Code">
+  </a>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+
+* 📔 **Note**: 좌측 `Source Code` 버튼을 클릭하면 상세 분석 코드가 담긴 주피터 노트북으로 이동합니다.
+
+---
+
+#### 🛠️ Tech Stack (기술 스택)
+* **Language & Library**: 
+  <img src="https://img.shields.io/badge/PYTHON-3776AB?style=flat-square&logo=python&logoColor=white"> 
+  <img src="https://img.shields.io/badge/PANDAS-150458?style=flat-square&logo=pandas&logoColor=white"> 
+  <img src="https://img.shields.io/badge/SCIKIT_LEARN-F7931E?style=flat-square&logo=scikit-learn&logoColor=white">
 
 
 
