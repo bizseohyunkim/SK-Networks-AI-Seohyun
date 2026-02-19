@@ -39,8 +39,6 @@
 
 ## 📂 SKN-25 Curriculum Roadmap
 
-
-
 | Stage | Curriculum | Key Topics | Status |
 | :--- | :--- | :--- | :---: |
 | **Phase 1** | **Data Foundation** | Python, MySQL, Web Crawling, ETL | ✅ |
@@ -88,40 +86,25 @@
 
 ## 🏆 Featured Projects
 
-# ⚾ KBO Player Data ETL Pipeline
+### 1️⃣ KBO Player Data ETL Pipeline ⚾
+> **비정형 웹 데이터를 수집하여 분석 최적화된 MySQL DB로 적재하는 자동화 엔진**
 
-KBO 공식 홈페이지의 선수 정보를 수집하여 데이터 전처리 후, 분석 최적화된 MySQL 데이터베이스로 구축하는 자동화 파이프라인 프로젝트입니다.
-
-## 1. 프로젝트 개요
-* **목적**: 비정형 웹 데이터를 수집 및 가공하여 통계 분석이 가능한 관계형 데이터베이스(RDBMS) 구축
+#### 📌 프로젝트 개요
+* **목적**: 비정형 웹 데이터를 수집 및 가공하여 통계 분석이 가능한 RDBMS 구축
 * **기간**: 2026.01.12 ~ 2026.01.13
 * **주요 기술**: Python, Pandas, BeautifulSoup, MySQL, SQLAlchemy
 
-## 2. 시스템 아키텍처 및 데이터 흐름
-1. **Extract**: `Requests`와 `BeautifulSoup`을 이용해 KBO 선수 상세 페이지(프로필, 성적) 크롤링
-2. **Transform**: 
-   - `Regular Expression(re)`을 활용한 날짜 및 문자열 정제
-   - 연봉 데이터 단위를 만원/달러 기준으로 통일 및 환산 로직 적용
-   - 신장/체중 데이터를 가공하여 **BMI 파생 변수** 생성
-3. **Load**: `MySQLdb`를 통해 정규화된 3개의 테이블(`profile`, `hitter`, `pitcher`)에 적재
+#### ⚙️ 시스템 아키텍처 및 데이터 흐름
+1. **Extract**: `Requests`와 `BeautifulSoup`을 이용해 KBO 선수 상세 정보 크롤링
+2. **Transform**: 정규표현식(`re`)을 활용한 날짜 정제, 연봉 단위 통일, **BMI 파생 변수** 생성
+3. **Load**: 정규화된 테이블(`profile`, `hitter`, `pitcher`)에 외래키 관계 설계를 통한 적재
 
-## 3. 데이터베이스 설계 (ERD)
-- **profile**: 선수 기본 정보 (ID, 이름, 팀, 연봉, BMI 등)
-- **hitter**: 타자 시즌 세부 성적 (AVG, OPS, RISP 등)
-- **pitcher**: 투수 시즌 세부 성적 (ERA, W, L, WHIP 등)
-> 각 테이블은 `id` (Player ID)를 기반으로 **Foreign Key(외래키)** 관계를 맺어 데이터 무결성을 보장합니다.
+#### ✅ 핵심 기능 및 SQL 활용
+* **전처리 최적화**: `pd.read_html`과 `io.StringIO`를 결합해 테이블 데이터 처리 속도 향상
+* **고급 SQL**: `Window Function(RANK)`과 `CTE`를 활용해 팀별 연봉 순위 및 OPS 통계 도출
+* **데이터 관리**: `JOIN` 및 `View`를 생성하여 선수 마스터 정보와 성적 데이터 통합 조회
 
-## 4. 핵심 기능 및 SQL 활용 능력
-### ✅ 효율적인 데이터 전처리
-- `pd.read_html`과 `io.StringIO`를 결합해 웹의 Table 태그를 즉시 DataFrame으로 변환하여 속도 최적화
-- `tqdm` 라이브러리를 적용하여 대량 데이터(전체 선수단) 수집 시 진행률 모니터링
-
-### ✅ 고급 SQL 쿼리 구현
-- **Window Function**: `RANK()`, `DENSE_RANK()`를 사용하여 팀별 연봉 순위 및 성적 상위 선수 추출
-- **CTE (Common Table Expressions)**: `WITH`절을 활용해 팀별 평균 OPS 등 복잡한 집계 쿼리의 가독성 향상
-- **JOIN & View**: 마스터 정보와 성적 테이블을 결합한 가상 뷰(View)를 생성하여 분석 편의성 제공
-
-## 5. 실행 예시 (Code Snippet)
+#### 💻 실행 예시 (Code Snippet)
 ```python
 # 파생변수(BMI) 생성 및 연봉 데이터 통일 로직
 df['BMI'] = df['WEIGHT'] / (df['HEIGHT'] / 100) ** 2
