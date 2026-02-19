@@ -137,12 +137,13 @@
 
 <p align="left">
   <a href="./260204-Credit_Card_Fraud_Detection_Project.ipynb">
-    <img src="https://img.shields.io/badge/SOURCE_CODE-JUPYTER_NOTEBOOK-orange?style=for-the-badge&logo=jupyter&logoColor=white">
+    <img src="https://img.shields.io/badge/SOURCE_CODE-JUPYTER_NOTEBOOK-orange?style=flat-square&logo=jupyter&logoColor=white">
   </a>
-  &nbsp;&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/LANGUAGE-PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  &nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/LANGUAGE-PYTHON-3776AB?style=flat-square&logo=python&logoColor=white">
 </p>
 
-> 📔 **Note**: 좌측 `Source Code` 버튼을 클릭하면 상세 분석 코드가 담긴 주피터 노트북으로 바로 이동합니다.
+> 📔 **Note**: 좌측 `SOURCE CODE` 배지를 클릭하면 상세 분석 코드가 담긴 주피터 노트북으로 이동합니다.
 
 ---
 
@@ -157,7 +158,6 @@
   &nbsp;&nbsp; 
   <img src="https://img.shields.io/badge/MATPLOTLIB-ffffff?style=flat-square&logo=matplotlib&logoColor=black">
 </p>
-
 
 
 
