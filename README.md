@@ -47,18 +47,4 @@
 | Phase 4 | AI Application | Django, AWS Cloud, SW Engineering | 📅 |
 | Phase 5 | Final Project | End-to-End Business Solution Project | 📅 |
 
----
 
-## 🏆 Featured Projects
-
-### 1️⃣ KBO Player Data ETL Pipeline ⚾
-> **비정형 웹 데이터를 수집하여 분석 최적화된 MySQL DB로 적재하는 자동화 엔진**
-
-* **목적**: 비정형 웹 데이터를 수집 및 가공하여 통계 분석이 가능한 RDBMS 구축
-* **기술 스택**: `Python`, `BeautifulSoup`, `MySQL`, `SQLAlchemy`
-* **주요 성과**: 정규표현식을 활용한 데이터 정제 및 BMI 파생변수 생성, 고성능 SQL 윈도우 함수 활용
-
-```python
-# 파생변수(BMI) 생성 및 연봉 데이터 통일 로직
-df['BMI'] = df['WEIGHT'] / (df['HEIGHT'] / 100) ** 2
-df['SALARY'] = df['연봉'].apply(lambda x: int(x[:-2]) if x[-2:] == '만원' else int(x[:-2]) * 1450 / 10000)
