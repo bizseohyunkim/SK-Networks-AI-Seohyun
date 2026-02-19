@@ -28,26 +28,28 @@ End-to-End AI 서비스 개발 역량을 쌓고 있습니다.
 
 ### 🏆 Featured Projects
 
-#### 1. 💳 Credit Card Fraud Detection (MLOps & AI)
+#### 1. ⚾ KBO Data Pipeline (Data Engineering)
+**[GitHub Repo](https://github.com/bizseohyunkim/KBO-Data-Pipeline) | [Learning Archive](https://github.com/bizseohyunkim/KBO-Data-Pipeline/blob/main/KBO_%EB%8D%B0%EC%9D%B4%ED%84%B0_%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B0%9C%EB%B0%9C_%EC%9D%BC%EC%A7%80.ipynb)**
+
+> **SK Family AI Bootcamp 실습 과제** | 데이터 수집부터 SQL 적재까지의 전 과정을 자동화한 ETL 파이프라인 구축 프로젝트입니다.
+
+* **Key Tasks**: 
+    - Selenium/Requests 기반 동적 크롤링 자동화 (900여 명의 선수 데이터)
+    - 정규표현식을 활용한 비정형 데이터(연봉, 신체정보) 전처리 및 BMI 지수 산출
+    - MySQL ERD 설계 및 Window Function(`RANK`)을 활용한 데이터 분석
+* **Tech Stack**: 
+    <img src="https://img.shields.io/badge/PYTHON-3776AB?style=flat-square&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/MYSQL-4479A1?style=flat-square&logo=mysql&logoColor=white"> <img src="https://img.shields.io/badge/PANDAS-150458?style=flat-square&logo=pandas&logoColor=white"> <img src="https://img.shields.io/badge/SELENIUM-43B02A?style=flat-square&logo=selenium&logoColor=white">
+
+---
+
+#### 2. 💳 Credit Card Fraud Detection (MLOps & AI)
 **[GitHub Repo](https://github.com/bizseohyunkim/Credit-Card-Fraud-Detection) | [Source Code](https://github.com/bizseohyunkim/Credit-Card-Fraud-Detection/blob/main/260204-Credit_Card_Fraud_Detection_Project.ipynb)**
 
 > **SK Family AI Bootcamp 실습 과제** | 불균형 데이터셋 환경에서 MLflow와 Docker를 활용하여 사기 거래를 탐지하고 모델을 서빙하는 MLOps 파이프라인을 구축했습니다.
 
-* **Key Tasks**: Precision-Recall Curve 분석을 통한 최적 Threshold 탐색, MLflow를 활용한 실험 관리 자동화, Docker 기반 환경 격리
+* **Key Tasks**: 
+    - Precision-Recall Curve 분석을 통한 최적 Threshold 탐색
+    - MLflow를 활용한 실험 관리 자동화 및 모델 버전 제어
+    - Docker 기반 환경 격리를 통한 일관된 서빙 환경 구축
 * **Tech Stack**: 
-    <img src="https://img.shields.io/badge/PYTHON-3776AB?style=flat-square&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/PANDAS-150458?style=flat-square&logo=pandas&logoColor=white"> <img src="https://img.shields.io/badge/SCIKIT_LEARN-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"> <img src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white">
-
-
-
-#### 2. ⚾ KBO Data Pipeline (Data Engineering)
-**[GitHub Repo](링크) | [Learning Archive](링크)**
-
-> 데이터 수집부터 SQL 적재까지의 전과정을 자동화한 ETL 파이프라인 구축 프로젝트입니다.
-
-* **Key Tasks**: Selenium 기반 동적 크롤링 자동화, MySQL ERD 설계 및 정규화, 데이터 무결성 검증을 포함한 적재 시스템 구현
-* **Tech Stack**: `Python`, `Selenium`, `MySQL`, `Pandas`
-
-
-
-
-
+    <img src="https://img.shields.io/badge/PYTHON-3776AB?style=flat-square&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white"> <img src="https://img.shields.io/badge/SCIKIT_LEARN-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"> <img src="https://img.shields.io/badge/DOCKER-2496ED?style=flat-square&logo=docker&logoColor=white">
