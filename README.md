@@ -67,9 +67,6 @@
 * **Notion**: [Learning Archive 상세 보기 (클릭)](https://www.notion.so/your-notion-link-here)
 * **GitHub**: [github.com/bizseohyunkim](https://github.com/bizseohyunkim)
 
----
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=150&section=footer" />
-</p>
+
 
 
