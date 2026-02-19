@@ -87,9 +87,26 @@
 ---
 
 ## 🏆 Featured Projects
-* **[KBO Data ETL Pipeline]**: 실시간 데이터를 수집하여 분석 가능한 SQL 형태로 적재하는 자동화 엔진.
-* **[Anomaly Detection System]**: 신용카드 부정 결제 탐지를 위한 불균형 데이터 처리 및 고정밀도 모델링.
-* **[Knowledge-based RAG Chatbot]**: LangChain과 Vector DB를 결합한 도메인 특화 질의응답 엔진 (진행 중).
+
+### 1️⃣ KBO Data ETL Pipeline ⚾
+> **실시간 데이터를 수집하여 분석 가능한 SQL 형태로 적재하는 자동화 엔진**
+- **Core**: Python, BeautifulSoup, MySQL, SQLAlchemy
+- **Feature**: 1일 1회 스케줄링을 통한 자동 데이터 갱신 및 데이터 정규화(Normalization)
+- **Links**: [[Code]](프로젝트폴더링크) | [[System Architecture]](이미지링크)
+
+
+### 2️⃣ Anomaly Detection System 💳
+> **신용카드 부정 결제 탐지를 위한 불균형 데이터 처리 및 고정밀도 모델링**
+- **Core**: Scikit-learn, XGBoost, SMOTE (Oversampling)
+- **Feature**: 재현율(Recall) 95% 이상 달성, 비용 기반 임계값 최적화
+- **Links**: [[Analysis Report]](노션이나블로그링크) | [[Demo App]](스트림릿링크)
+
+
+### 3️⃣ Knowledge-based RAG Chatbot 🤖
+> **LangChain과 Vector DB를 결합한 도메인 특화 질의응답 엔진**
+- **Core**: LangChain, OpenAI API, ChromaDB, Streamlit
+- **Feature**: PDF/TXT 문서 기반 지식 추출 및 할루시네이션 방지 로직 적용
+- **Links**: [[Live Demo]](스트림릿배포링크) | [[Video Demo]](유튜브나움짤링크)
 
 ---
 
