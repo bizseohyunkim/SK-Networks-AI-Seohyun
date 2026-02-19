@@ -1,45 +1,99 @@
-# Hi there, I'm Seo Kim! 👋
+# 🚀 SEO KIM | AI Solution & Data Engineer
+### "Bridging the gap between Data Engineering and Generative AI"
 
-### 📊 Data Science & Machine Learning Enthusiast
-현재 **SK Networks Family AI Camp (SKN-25)**에서 실무 데이터를 활용한 AI 모델링을 학습하고 있습니다.
-
----
-
-### 📫 Contact Me
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/seohyun-kim-1893ba360/)
-
-# 🤖 SK Networks Family AI Camp Learning Archive
-
-SK네트웍스 Family AI 캠프 25기를 통해 데이터 기초부터 LLM 파인튜닝, 클라우드 배포까지 아우르는 AI 풀스택 실무 역량을 쌓아가고 있습니다.
+현재 **SK Networks Family AI Camp (SKN-25)**에서 실무 데이터를 활용한 AI 모델링 및 풀스택 AI 앱 개발 과정을 밟고 있습니다. 데이터 수집 자동화부터 MLOps, LLM 서비스 구축까지 End-to-End 역량을 지향합니다.
 
 ---
 
-## 💡 Key Expertise & Experience (핵심 역량 및 경험)
+## 💡 Key Expertise & Experience
 
-* **Data Engineering & Management**: MySQL을 활용한 ERD 설계 및 파이썬 연동을 통한 효율적인 데이터 수집 시스템 구축
-* **Advanced ML/DL Modeling**: 탐색적 데이터 분석 기반 데이터 전처리 및 비즈니스 목표에 최적화된 최적 모델 선정·배포
-* **LLM & RAG System Integration**: LangChain을 활용하여 벡터 데이터베이스와 LLM을 연동한 질의응답 서비스 개발 및 프롬프트 엔지니어링
-* **Full-stack AI App Deployment**: Django 프레임워크와 AWS 클라우드 인프라를 기반으로 프론트엔드, 백엔드 API, DB를 통합한 웹 서비스 구축
-* **Professional Mentoring Project**: 현업 전문가 피드백을 반영하여 기업 특화 sLLM 챗봇 등 실제 비즈니스 시나리오 해결
+* **Data Engineering**: `MySQL` 기반 ERD 설계 및 Python 연동을 통한 데이터 수집 자동화(ETL) 시스템 구축.
+* **ML/DL Modeling**: `EDA` 기반 데이터 전처리 및 비즈니스 지표에 최적화된 모델링 (Classification, Regression, Anomaly Detection).
+* **LLM & RAG Integration**: `LangChain` 및 Vector DB를 활용한 지식 기반 질의응답 서비스 개발 및 프롬프트 엔지니어링.
+* **Full-stack AI Deployment**: `Django` 및 `AWS` 인프라 기반의 프론트엔드/백엔드/DB 통합 AI 서비스 배포.
+* **MLOps Mastery**: `MLflow`, `Optuna`, `Docker`를 활용한 실험 관리 및 모델 서빙 환경 최적화.
 
 ---
 
-## ⚒️ Tech Stack (기술 스택)
+## ⚒️ Tech Stack
 
 ### 🛰️ Languages & Frameworks
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Django](https://img.shields.io/badge/django-%23092e20.svg?style=for-the-badge&logo=django&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+</p>
 
 ### 🧠 AI & Data Engineering
-![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+<p>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white">
+  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white">
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white">
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white">
+</p>
 
 ---
 
-## 📂 Curriculum Roadmap (학습 경로)
+## 📂 SKN-25 Curriculum Roadmap
 
-| Stage (단계) | Curriculum (교과목) | Key Topics (핵심 내용) |
-| :--- | :--- | :--- |
-| **Phase 1** | [**Data Foundation**](./Phase1_Data_Foundation) | Python, MySQL, Web Crawling |
-| **Phase 2** | [**ML & Deep Learning**](./Phase2_ML_DeepLearning) | EDA, Modeling, Model Evaluation |
-| **Phase 3** | [**LLM & Multi-modal**](./Phase3_LLM_Multimodal) | RAG System, Fine-tuning, Multi-modal |
-| **Phase 4** | [**AI Application**](./Phase4_AI_Application) | Django, AWS Cloud, SW Engineering |
-| **Phase 5** | **Final Project** | End-to-End Business Solution Project |
+
+
+| Stage | Curriculum | Key Topics | Status |
+| :--- | :--- | :--- | :---: |
+| **Phase 1** | **Data Foundation** | Python, MySQL, Web Crawling, ETL | ✅ |
+| **Phase 2** | **ML & Deep Learning** | EDA, Model Evaluation, MLOps, CV | ✅ |
+| **Phase 3** | **LLM & Multi-modal** | RAG System, Fine-tuning, LangChain | 🔄 |
+| **Phase 4** | **AI Application** | Django, AWS Cloud, SW Engineering | 📅 |
+| **Phase 5** | **Final Project** | End-to-End Business Solution Project | 📅 |
+
+---
+
+## 🤖 Learning Archive (Detailed Weekly Log)
+
+<details>
+<summary><b>Week 1-2: Advanced Python & Env Setup</b></summary>
+
+- **25.12.30 - 26.01.02**: 파이썬 기초 및 금융 데이터 수집 실습, 스트림릿 기초.
+- **26.01.05 - 26.01.09**: OOP 심화, Conda 환경 구축, Pygame 활용 게임 개발 및 지리 데이터 시각화.
+- **Focus**: 데이터 분석 환경 구축 및 객체 지향 프로그래밍의 실제 적용.
+</details>
+
+<details>
+<summary><b>Week 3-4: Data Engineering & Analytics</b></summary>
+
+- **26.01.12 - 26.01.15**: KBO 데이터 ETL 시스템 설계, SQL 윈도우 함수 및 JOIN 심화, API 서버 구축.
+- **26.01.19 - 26.01.23**: 항공 데이터 분석 실무, 정규표현식 활용 텍스트 추출, 통계적 시각화 및 데이터 재구조화.
+- **Focus**: 관계형 데이터베이스(MySQL) 설계 및 데이터 파이프라인 최적화.
+</details>
+
+<details>
+<summary><b>Week 5-6: MLOps & Machine Learning</b></summary>
+
+- **26.01.26 - 26.01.30**: 선형 회귀, 타이타닉 생존자 예측(분류), MLOps 인프라 및 교차 검증 실습.
+- **26.02.02 - 26.02.06**: MLflow 모델 서빙, Optuna 최적화, Docker 컨테이너화, 신용카드 사기 검출 실무.
+- **Focus**: 모델의 성능 측정부터 배포 가능한 형태(Container)로의 패키징.
+</details>
+
+<details>
+<summary><b>Week 7-Present: Deep Learning & GenAI</b></summary>
+
+- **26.02.09 - 26.02.13**: PyTorch 전이 학습, YOLOv8 기반 Object Detection/Segmentation, LangChain 기초.
+- **Focus**: 최신 AI 모델(CV, GenAI) 아키텍처 이해 및 활용 역량 확보.
+</details>
+
+---
+
+## 🏆 Featured Projects
+* **[KBO Data ETL Pipeline]**: 실시간 데이터를 수집하여 분석 가능한 SQL 형태로 적재하는 자동화 엔진.
+* **[Anomaly Detection System]**: 신용카드 부정 결제 탐지를 위한 불균형 데이터 처리 및 고정밀도 모델링.
+* **[Knowledge-based RAG Chatbot]**: LangChain과 Vector DB를 결합한 도메인 특화 질의응답 엔진 (진행 중).
+
+---
+
+## 📫 Contact Me
+* **Email**: `본인의이메일@example.com`
+* **Notion**: [Learning Archive 상세 보기](본인의노션링크)
+* **Tech Blog**: [Tistory/Velog 바로가기](본인의블로그링크)
