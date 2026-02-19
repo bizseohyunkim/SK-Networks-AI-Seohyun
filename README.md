@@ -111,55 +111,38 @@ df['BMI'] = df['WEIGHT'] / (df['HEIGHT'] / 100) ** 2
 df['SALARY'] = df['연봉'].apply(lambda x: int(x[:-2]) if x[-2:] == '만원' else int(x[:-2]) * 1450 / 10000)
 
 ---
-### 1️⃣ KBO Player Data ETL Pipeline ⚾
 
-#### 📂 Project Assets (프로젝트 자산)
+## 2️⃣ Credit Card Fraud Detection Project 💳
 
-<p align="left">
-  <a href="https://github.com/bizseohyunkim/Credit-Card-Fraud-Detection/blob/main/260204-Credit_Card_Fraud_Detection_Project.ipynb">
-    <img src="https://img.shields.io/badge/SOURCE_CODE-JUPYTER_NOTEBOOK-orange?style=flat-square&logo=jupyter&logoColor=white">
-  </a>
-  &nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/LANGUAGE-PYTHON-3776AB?style=flat-square&logo=python&logoColor=white">
-</p>
+> **This project is a practical assignment conducted during the SK Family AI Bootcamp.**
+> (본 프로젝트는 SK Family AI Bootcamp 교육 과정 중 수행한 실습 과제입니다.)
 
-> 📔 **Note**: 좌측 `SOURCE CODE` 배지를 클릭하면 상세 분석 코드가 담긴 주피터 노트북으로 이동합니다.
+### 📝 Project Overview (프로젝트 개요)
+이 프로젝트는 **0.17%**라는 극심한 불균형 데이터를 가진 신용카드 트랜잭션 데이터셋에서 사기 거래를 효과적으로 탐지하기 위한 머신러닝 최적화 과정을 담고 있습니다. 샘플링 기법과 정교한 전처리를 통해 모델의 탐지 성능을 극대화했습니다.
 
 ---
 
-#### 🛠️ Tech Stack (기술 스택)
+### 💻 Core Implementation (핵심 구현 로직)
 
-<p align="left">
-  <img src="https://img.shields.io/badge/PYTHON-3776AB?style=flat-square&logo=python&logoColor=white"> 
-  &nbsp;&nbsp; 
-  <img src="https://img.shields.io/badge/PANDAS-150458?style=flat-square&logo=pandas&logoColor=white"> 
-  &nbsp;&nbsp; 
-  <img src="https://img.shields.io/badge/SCIKIT_LEARN-F7931E?style=flat-square&logo=scikit-learn&logoColor=white">
-</p>
+#### 1. Data Preprocessing & Outlier Removal
+이상치에 민감한 `Amount` 피처를 로그 변환하여 데이터 분포의 왜곡을 개선했습니다. 또한, 타겟 레이블과 상관관계가 높은 주요 피처(`V14`, `V17`)에서 **IQR(Interquartile Range) 방식**을 적용해 유의미한 이상치를 제거함으로써 모델의 노이즈를 최소화했습니다.
 
----
 
-#### 📈 Model Performance (모델 성능)
 
-> <p align="left">
->   <img src="precision_recall_curve.png" width="700">
-> </p>
->
-> **Evaluation**: 사기를 놓치지 않기 위해 **Precision-Recall Curve** 분석을 통한 **Recall 지표 최적화**를 진행했습니다.
+```python
+def get_preprocessed_df(df=None):
+    df_copy = df.copy()
+    # Amount 피처 로그 변환 (Skewness 개선)
+    amount_n = np.log1p(df_copy['Amount'])
+    df_copy.insert(0, 'Amount_Scaled', amount_n)
+    df_copy.drop(['Time', 'Amount'], axis=1, inplace=True)
+    return df_copy
 
----
-
-### 3️⃣ Knowledge-based RAG Chatbot 🤖
-> **LangChain과 Vector DB를 결합한 도메인 특화 지식 기반 질의응답 서비스**
-- **Core Stack**: `LangChain`, `OpenAI API`, `ChromaDB`, `Streamlit`
-- **Key Function**: 고유 문서(PDF/TXT) 임베딩 기반 RAG 엔진 구축으로 할루시네이션 최소화
-- **Deliverables**:
-  [![GitHub](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](프로젝트_폴더_링크)
-  [![Notion](https://img.shields.io/badge/Project_Log-000000?style=flat-square&logo=notion&logoColor=white)](노션_기록_링크)
-  [![Streamlit](https://img.shields.io/badge/Live_Demo-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](스트림릿_배포_링크)
-
----
-
-## 📫 Contact Me
-* **Email**: biz.seohyunkim@gmail.com
-* **Notion**: [Learning Archive 상세 보기](https://www.notion.so/Data-Analyst-Portfolio-Seo-2fc2091c753780a29295c464c0986827)
+# IQR 방식을 이용한 특정 피처의 이상치 인덱스 추출
+def get_outlier(df=None, column=None, weight=1.5):
+    fraud = df[df['Class']==1][column]
+    quantile_25 = np.percentile(fraud.values, 25)
+    quantile_75 = np.percentile(fraud.values, 75)
+    iqr = (quantile_75 - quantile_25) * weight
+    outlier_index = fraud[(fraud < quantile_25 - iqr) | (fraud > quantile_75 + iqr)].index
+    return outlier_index
