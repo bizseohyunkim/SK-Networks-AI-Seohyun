@@ -1,71 +1,34 @@
 # 🚀 SEO KIM | AI Solution & Data Engineer
 
-"Bridging the gap between Data Engineering and Generative AI"
+"데이터 엔지니어링과 생성형 AI의 가교 역할을 수행합니다."
 
-현재 **SK Networks Family AI Camp (SKN-25)**에서 실무 데이터를 활용한 AI 모델링 및 풀스택 AI 앱 개발 과정을 밟고 있습니다. 데이터 수집 자동화부터 MLOps, LLM 서비스 구축까지 End-to-End 역량을 지향합니다.
-
-## 💡 Key Expertise & Experience
-
-* **Data Engineering**: MySQL 기반 ERD 설계 및 Python 연동을 통한 데이터 수집 자동화(ETL) 시스템 구축.
-* **ML/DL Modeling**: EDA 기반 데이터 전처리 및 비즈니스 지표에 최적화된 모델링 (Classification, Regression, Anomaly Detection).
-* **LLM & RAG Integration**: LangChain 및 Vector DB를 활용한 지식 기반 질의응답 서비스 개발 및 프롬프트 엔지니어링.
-* **Full-stack AI Deployment**: Django 및 AWS 인프라 기반의 프론트엔드/백엔드/DB 통합 AI 서비스 배포.
-* **MLOps Mastery**: MLflow, Optuna, Docker를 활용한 실험 관리 및 모델 서빙 환경 최적화.
+현재 **SK Networks Family AI Camp (SKN-25)**에서 실무 데이터를 활용한 
+End-to-End AI 서비스 개발 역량을 쌓고 있습니다.
 
 ---
 
-## ⚒️ Tech Stack
-
-### 🛰️ Languages & Frameworks
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white">
-  <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white">
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white">
-</p>
-
-### 🧠 AI & Data Engineering
-<p align="left">
-  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white">
-  <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white">
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white">
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white">
-  <img src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white">
-</p>
+### 💡 Core Competencies
+* **Data Engineering:** MySQL ERD 설계 및 Python 기반 ETL 자동화 시스템 구축
+* **MLOps & DevOps:** MLflow/Optuna를 이용한 실험 관리, Docker 기반 모델 서빙 환경 최적화
+* **AI Modeling:** 비즈니스 지표 최적화를 위한 ML/DL 모델링 (Classification, Anomaly Detection)
+* **LLM & RAG:** LangChain 기반 지식 기반 질의응답 및 프롬프트 엔지니어링
 
 ---
 
-## 📂 SKN-25 Curriculum Roadmap
-
-| Stage | Curriculum | Key Topics | Status |
+### 🛠️ Tech Stack & Roadmap
+| Phase | Focus | Technologies | Status |
 | :--- | :--- | :--- | :--- |
-| Phase 1 | Data Foundation | Python, MySQL, Web Crawling, ETL | ✅ |
-| Phase 2 | ML & Deep Learning | EDA, Model Evaluation, MLOps, CV | ✅ |
-| Phase 3 | LLM & Multi-modal | RAG System, Fine-tuning, LangChain | 🔄 |
-| Phase 4 | AI Application | Django, AWS Cloud, SW Engineering | 📅 |
-| Phase 5 | Final Project | End-to-End Business Solution Project | 📅 |
+| **P1** | Data Foundation | Python, MySQL, Selenium, ETL | ✅ |
+| **P2** | ML & MLOps | Scikit-learn, MLflow, Optuna, Docker | ✅ |
+| **P3** | LLM & Multi-modal | LangChain, VectorDB, RAG, Fine-tuning | 🔄 |
+| **P4** | Application | Django, AWS, CI/CD | 📅 |
 
 ---
 
-## 📫 Contact Me
-
-<p align="left">
-  <a href="mailto:biz.seohyunkim@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white&link=mailto:biz.seohyunkim@gmail.com">
-  </a>
-  <a href="https://www.notion.so/your-notion-link-here">
-    <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white">
-  </a>
-  <a href="https://github.com/bizseohyunkim">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white">
-  </a>
-</p>
-
-* **Email**: [biz.seohyunkim@gmail.com](mailto:biz.seohyunkim@gmail.com)
-* **Notion**: [Learning Archive 상세 보기 (클릭)](https://www.notion.so/your-notion-link-here)
-* **GitHub**: [github.com/bizseohyunkim](https://github.com/bizseohyunkim)
+### 🏆 Featured Projects
+* [KBO Data Pipeline](링크): 데이터 수집부터 SQL 적재까지의 ETL 프로세스
+* [Fraud Detection MLOps](링크): MLflow와 Docker를 활용한 신용카드 사기 검출 모델 서빙
+* [Learning Archive](링크): 24주간의 AI/Data Engineering 학습 여정 기록
 
 
 
