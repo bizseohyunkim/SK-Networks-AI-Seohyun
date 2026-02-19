@@ -134,7 +134,7 @@
 #### 📂 Project Assets (프로젝트 자산)
 
 <p align="left">
-  <a href="./260204-Credit_Card_Fraud_Detection_Project.ipynb">
+  <a href="260204-Credit_Card_Fraud_Detection_Project.ipynb">
     <img src="https://img.shields.io/badge/SOURCE_CODE-JUPYTER_NOTEBOOK-orange?style=flat-square&logo=jupyter&logoColor=white">
   </a>
   &nbsp;&nbsp;
