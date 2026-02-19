@@ -100,12 +100,6 @@
 
 ---
 
-### 💳 Credit Card Fraud Detection Project (신용카드 사기 탐지 프로젝트)
-
-본 프로젝트는 SK Family AI Bootcamp 교육 과정 중 수행한 실습 과제입니다.
-
----
-
 #### 📂 Project Assets (프로젝트 자산)
 
 <p align="left">
@@ -128,21 +122,17 @@
   <img src="https://img.shields.io/badge/PANDAS-150458?style=flat-square&logo=pandas&logoColor=white"> 
   &nbsp;&nbsp; 
   <img src="https://img.shields.io/badge/SCIKIT_LEARN-F7931E?style=flat-square&logo=scikit-learn&logoColor=white">
-  &nbsp;&nbsp; 
-  <img src="https://img.shields.io/badge/MATPLOTLIB-ffffff?style=flat-square&logo=matplotlib&logoColor=black">
 </p>
 
 ---
 
 #### 📈 Model Performance (모델 성능)
 
-![Model Performance](precision_recall_curve.png)
+<p align="center">
+  <img src="precision_recall_curve.png" width="800">
+</p>
 
 * **Evaluation**: 사기를 놓치지 않기 위해 Precision-Recall Curve 분석을 통한 Recall 지표 최적화.
-
-
-
-
 ---
 
 ### 3️⃣ Knowledge-based RAG Chatbot 🤖
