@@ -26,19 +26,6 @@ End-to-End AI 서비스 개발 역량을 쌓고 있습니다.
 
 ---
 
-### 💼 Experience
-
-#### AI Engineering Trainee | SK Family AI Bootcamp (SKN-25)
-*Dec 2025 - Present (3 mos) | Seoul, South Korea (On-site)*
-
-* **Intensive AI Training**: 주 5일(40시간/주) 집중 교육 과정을 통해 데이터 전처리부터 모델 배포까지 AI 엔지니어링 전 과정 이수
-* **Data Infrastructure**: MySQL 기반 ERD 설계 및 Python 연동 파이프라인 구축을 통한 웹 크롤링 및 데이터 수집 자동화
-* **LLM & RAG Integration**: LangChain 및 VectorDB를 활용한 지식 기반 질의응답(RAG) 서비스 개발 및 프롬프트 엔지니어링 최적화
-* **Full-stack AI Deployment**: 프론트엔드, 백엔드 API, DB 및 LLM을 통합한 클라우드 기반 End-to-End AI 웹 서비스 구축
-* **Corporate-led Project**: 현업 전문가 멘토링을 통해 기업 특화 sLLM 챗봇 개발 및 실제 비즈니스 시나리오 해결
-
----
-
 ### 🏆 Featured Projects
 
 #### 1. 💳 Credit Card Fraud Detection (MLOps & AI)
