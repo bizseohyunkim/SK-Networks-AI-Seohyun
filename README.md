@@ -146,6 +146,7 @@ This project focuses on optimizing machine learning models and anomaly detection
 #### 📂 Project Assets (프로젝트 자산)
 
 [![Jupyter Notebook](https://img.shields.io/badge/Source_Code-Jupyter_Notebook-orange?style=for-the-badge&logo=jupyter&logoColor=white)](./260204-Credit_Card_Fraud_Detection_Project.ipynb)
+
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](./260204-Credit_Card_Fraud_Detection_Project.ipynb)
 
 * 📔 **Note**: 위 버튼을 클릭하면 상세 분석 코드가 담긴 주피터 노트북으로 이동합니다.
