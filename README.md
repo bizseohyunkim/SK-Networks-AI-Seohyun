@@ -131,17 +131,32 @@
 
 ---
 
+---
+
 #### 📂 Project Assets (프로젝트 자산)
 
-* **Deliverables:** &nbsp; <a href="./260204-Credit_Card_Fraud_Detection_Project.ipynb"><img src="https://img.shields.io/badge/SOURCE_CODE-JUPYTER_NOTEBOOK-orange?style=for-the-badge&logo=jupyter&logoColor=white"></a> &nbsp; <img src="https://img.shields.io/badge/LANGUAGE-PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white">
+<p align="left">
+  <a href="./260204-Credit_Card_Fraud_Detection_Project.ipynb">
+    <img src="https://img.shields.io/badge/SOURCE_CODE-JUPYTER_NOTEBOOK-orange?style=for-the-badge&logo=jupyter&logoColor=white">
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/LANGUAGE-PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white">
+</p>
 
-* 📔 **Note**: 좌측 `Source Code` 버튼을 클릭하면 상세 분석 코드가 담긴 주피터 노트북으로 이동합니다.
+> 📔 **Note**: 좌측 `Source Code` 버튼을 클릭하면 상세 분석 코드가 담긴 주피터 노트북으로 바로 이동합니다.
 
 ---
 
 #### 🛠️ Tech Stack (기술 스택)
 
-* **Language & Library:** &nbsp; <img src="https://img.shields.io/badge/PYTHON-3776AB?style=flat-square&logo=python&logoColor=white"> &nbsp; <img src="https://img.shields.io/badge/PANDAS-150458?style=flat-square&logo=pandas&logoColor=white"> &nbsp; <img src="https://img.shields.io/badge/SCIKIT_LEARN-F7931E?style=flat-square&logo=scikit-learn&logoColor=white">
+<p align="left">
+  <img src="https://img.shields.io/badge/PYTHON-3776AB?style=flat-square&logo=python&logoColor=white"> 
+  &nbsp;&nbsp; 
+  <img src="https://img.shields.io/badge/PANDAS-150458?style=flat-square&logo=pandas&logoColor=white"> 
+  &nbsp;&nbsp; 
+  <img src="https://img.shields.io/badge/SCIKIT_LEARN-F7931E?style=flat-square&logo=scikit-learn&logoColor=white">
+  &nbsp;&nbsp; 
+  <img src="https://img.shields.io/badge/MATPLOTLIB-ffffff?style=flat-square&logo=matplotlib&logoColor=black">
+</p>
 
 
 
