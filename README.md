@@ -70,4 +70,4 @@
 ## 👤 Contact
 - **Name:** 김서현 (Seohyun Kim)
 - **GitHub:** [@bizseohyunkim](https://github.com/bizseohyunkim)
-- **Email:** your-email@example.com
+- **Email:** biz.seohyunkim@gmail.com
